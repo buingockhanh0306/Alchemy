@@ -39,7 +39,7 @@ function MainSection({ ref, onRequest, onExit }) {
 
     const checkItemDuplicate = (idItemDuplicate, idItemInContent) => {
         if (valueMouseContext.isMouseMove) {
-            if (valueHandleLogic.dataContent.length > 0 && valueHandleLogic.itemDuplicate) {
+            if (valueHandleLogic.dataMainSection.length > 0 && valueHandleLogic.elememtDuplicate) {
                 if (idItemDuplicate === idItemInContent) {
                     return true;
                 } else {
@@ -126,6 +126,9 @@ function MainSection({ ref, onRequest, onExit }) {
                             type: 'content',
                             ix: index,
                         })
+                    }
+                    opacity={
+                        checkItemDuplicate(valueHandleLogic.elememtDuplicate.idElement, element.idElement) ? 0.5 : 1
                     }
                 />
             ))}

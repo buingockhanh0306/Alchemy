@@ -1,7 +1,7 @@
 const dataCombine = [
-    [0,3,5],
-    [0,2,4],
-    [3,1,6],
-    [5,1,7]
-]
-export default dataCombine
+    [2, 4, 5],
+    [1, 3, 6],
+    [1, 5, 7],
+    [7, 7, 9],
+];
+export default dataCombine;

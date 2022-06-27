@@ -21,7 +21,7 @@ function SideBar() {
             <div className={styles['sidebar-abc']}>
                 <ul>
                     {alphabet.map((alph, index) => (
-                        <li key={index} style={{ margin: '4px 0', cursor: 'pointer' }}>
+                        <li key={index} style={{ cursor: 'pointer' }}>
                             {alph}
                         </li>
                     ))}

@@ -10,15 +10,18 @@
     }
 }
 .sidebar-abc {
-    width: 30px;
+    width: 3rem;
     height: 100vh;
 
     ul {
         list-style: none;
         margin: 0;
         padding: 0;
-        text-align: center;
-        line-height: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
     }
 }
 .sidebar-container {

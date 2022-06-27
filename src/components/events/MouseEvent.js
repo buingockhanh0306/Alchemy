@@ -51,7 +51,7 @@ function MouseEvent({ children }) {
 
             if (valueHandleLogic.dataMainSection.length >= 1) {
                 const newData = valueHandleLogic.dataMainSection.filter(
-                    (elememt) =>
+                    (elememt, index) =>
                         elememt.position.left - 32 <= position.left &&
                         position.left <= elememt.position.left + 32 &&
                         elememt.position.top - 32 <= position.top &&
@@ -94,7 +94,7 @@ function MouseEvent({ children }) {
                 }
             });
         }
-        // valueHandleLogic.checkRecipes();
+        valueHandleLogic.checkRecipes();
 
         setIsMouseDown(false);
         setElementSelect({});
