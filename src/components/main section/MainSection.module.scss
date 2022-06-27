@@ -1,0 +1,52 @@
+.main {
+    flex: 1;
+    height: 100vh;
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+.count-item {
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+    font-size: 6.2rem;
+    font-weight: 100;
+    color: #e8ded0;
+}
+.fullscreen {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.signin {
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+}
+.icon {
+    width: 35px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    img {
+        margin-top: 10px;
+        cursor: pointer;
+    }
+}
+.link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.3rem;
+
+    a {
+        color: #938671;
+    }
+
+    &:hover a {
+        color: #f1aecb;
+        cursor: pointer;
+    }
+}

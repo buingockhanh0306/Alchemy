@@ -1,0 +1,61 @@
+.sidebar {
+    display: flex;
+    width: 250px;
+    height: 100vh;
+    background-color: #f6f1e8;
+    // opacity: 0.5;
+    font: {
+        size: 1.3rem;
+        weight: 300;
+    }
+}
+.sidebar-abc {
+    width: 30px;
+    height: 100vh;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        line-height: 30px;
+    }
+}
+.sidebar-container {
+    height: 100vh;
+    border-left: 1px solid #fff;
+    flex: 1;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+.elemen {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    cursor: default;
+    img {
+        width: 50px;
+        height: 50px;
+        margin-right: 4px;
+        cursor: pointer;
+        z-index: 11;
+    }
+}
+.overlay {
+    position: absolute;
+    display: block;
+    z-index: 12;
+    width: 53px;
+    height: 53px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.a {
+    background-color: transparent;
+}
